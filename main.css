@@ -1,0 +1,472 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container-1 {
+  /* width: 192rem; */
+  width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  gap: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-1 {
+  width: 53.6rem;
+  height: 9.6rem;
+  font-family: Inter Tight;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: #161723;
+}
+
+.hero-1 {
+  width: 117rem;
+  height: 37rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+}
+
+.layout-1,
+.layout-3 {
+  width: 37rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.innerbox {
+  width: 37rem;
+  height: 8.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+}
+
+.innerbox-grid {
+  width: 28.6rem;
+  height: 8.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.real-food-text-1 {
+  width: 8.9rem;
+  height: 2.9rem;
+  font-family: Inter Tight;
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #161723;
+}
+
+.real-food-text-2 {
+  width: 28.6rem;
+  height: 4.8rem;
+  font-family: Inter Tight;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #424153;
+}
+
+.premium-ingredient-text-1 {
+  width: 19rem;
+  height: 2.9rem;
+  font-family: Inter Tight;
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #161723;
+}
+
+.premium-ingredient-text-2 {
+  width: 28.6rem;
+  height: 4.8rem;
+  font-family: Inter Tight;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #424153;
+}
+
+.layout-2 {
+  width: 37rem;
+  height: 37rem;
+  color: #ffffff;
+}
+
+.made-fresh-text-1 {
+  width: 11rem;
+  height: 2.9rem;
+  font-family: Inter Tight;
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #161723;
+}
+
+.made-fresh-text-2 {
+  width: 28.6rem;
+  height: 4.8rem;
+  font-family: Inter Tight;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #424153;
+}
+
+.vet-developed-text-1 {
+  width: 13.5rem;
+  height: 2.9rem;
+  font-family: Inter Tight;
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #161723;
+}
+
+.vet-developed-text-2 {
+  width: 28.6rem;
+  height: 4.8rem;
+  font-family: Inter Tight;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #424153;
+}
+
+.paymenttab {
+  width: 46.2rem;
+  height: 8.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.paymenttab-textbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 46.2rem;
+  height: 4.8rem;
+  padding-top: 1.2rem;
+  padding-right: 4rem;
+  padding-bottom: 1.2rem;
+  padding-left: 4rem;
+  gap: 1rem;
+  border-radius: 6px;
+  background: #ee6f4b;
+}
+
+.paymenttab-text-1 {
+  width: 28rem;
+  height: 2.4rem;
+  font-family: Inter Tight;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.paymenttab-info {
+  width: 46.2rem;
+  height: 2.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.paymenttab-info-stat {
+  width: 21rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.paymenttab-info-stat-text-1 {
+  width: 18.6rem;
+  height: 2rem;
+  font-family: Inter Tight;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #424153;
+}
+
+.paymenttab-info-stat-options {
+  width: 22.8rem;
+  height: 2.4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.paymenttab-info-stat-options img {
+  width: 3.92rem;
+  height: 2.4rem;
+}
+
+.container-2 {
+  /* width: 192rem; */
+  width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #f8f8f8;
+}
+
+.section-modal {
+  width: 57rem;
+  height: 57.1rem;
+  padding-right: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.section-modal-frame-1 {
+  width: 53.8rem;
+  height: 18.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.section-modal-frame-1-text-1 {
+  width: 53.8rem;
+  height: 9.6rem;
+  font-family: Inter Tight;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: 0.25px;
+  color: #161723;
+}
+
+.section-modal-frame-1-text-2 {
+  width: 53.8rem;
+  height: 7.2rem;
+  font-family: Inter Tight;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #424153;
+}
+
+.section-modal-frame-2 {
+  width: 53.8rem;
+  height: 24.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.section-modal-frame-2-text-1 {
+  width: 53.8rem;
+  height: 2.9rem;
+  font-family: Inter Tight;
+  font-weight: 500;
+  font-size: 1.9rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #161723;
+}
+
+.section-modal-frame-2-inframe {
+  width: 53.8rem;
+  height: 19.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.section-modal-frame-2-inframe-box {
+  width: 53.8rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4.8rem;
+}
+
+.section-modal-frame-2-inframe-box-text-1 {
+  width: 6.7rem;
+  height: 5rem;
+  font-family: Inter Tight;
+  font-weight: 700;
+  font-size: 3.3rem;
+  line-height: 150%;
+  letter-spacing: 0.25px;
+  color: #ee6f4b;
+}
+
+.section-modal-frame-2-inframe-box-text-2 {
+  width: 42.1rem;
+  height: 4.8rem;
+  font-family: Inter Tight;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #424153;
+}
+
+.section-modal-frame-2-inframe-box-line {
+  width: 53.8rem;
+  border-width: 1px;
+  border: 1px solid #e3e3e8;
+}
+
+.section-modal-frame-3 {
+  width: 53.8rem;
+  height: 4.8rem;
+  padding-top: 1.2rem;
+  padding-right: 4rem;
+  padding-bottom: 1.2rem;
+  padding-left: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 6px;
+  background: #ee6f4b;
+}
+
+.section-modal-frame-3-text-1 {
+  width: 40.3rem;
+  height: 2.4rem;
+  font-family: Inter Tight;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.container-2 img {
+  width: 57rem;
+  height: 57rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  object-position: 58% 100%;
+}
+
+.container-3 {
+  /* width: 1920; */
+  width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+}
+
+.container-3-box {
+  width: 117rem;
+  height: 48rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+}
+
+.container-3-box img {
+  width: 57rem;
+  height: 48rem;
+  border-radius: 1rem;
+}
+
+.container-3-box-frame-1 {
+  width: 57rem;
+  height: 28rem;
+  padding-left: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.container-3-box-frame-1-text-1 {
+  width: 53.8rem;
+  height: 14.4rem;
+  font-family: Inter Tight;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: 0.25px;
+  color: #161723;
+}
+
+.container-3-box-frame-1-text-2 {
+  width: 53.8rem;
+  height: 12rem;
+  font-family: Inter Tight;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #424153;
+}
+
+.container-3-box-frame-2 {
+  width: 57rem;
+  height: 25.6rem;
+  padding-right: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.container-3-box-frame-2-text-1 {
+  width: 53.8rem;
+  height: 14.4rem;
+  font-family: Inter Tight;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: 0.25px;
+  color: #161723;
+}
+
+.container-3-box-frame-2-text-2 {
+  width: 53.8rem;
+  height: 96rem;
+  font-family: Inter Tight;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #424153;
+}
