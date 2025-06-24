@@ -2,18 +2,20 @@
 
 ## Build a section of a UI design
 
+### Tech Stack
+
+- HTML5
+- CSS
+
+---
+
 ### Code Explanation
 
-- I used both HTML5, CSS and Figma information to build this homepage.
-- I divided the homepage to three section following the Figma layout.
-- Using the properties details of each layer, I wrote the HTML code and CSS effect to replicate the exact features.
-- For the icon design, I extracted them as a SVG file and used in my HTML code
-- I downloaded the images and copied them to the image folder in my project folder.
-- I included a link tag in my HTML head tag to import the INTER TIGHT font from googleapis.
+- The homepage was built using **HTML5**, **CSS3**, and visual specifications from a **Figma** design file.
+- The structure is divided into **three primary sections**, mirroring the Figma layout for consistency and responsiveness.
+- Each layer and component from Figma (dimensions, spacing, colors, fonts) was carefully translated into semantic HTML and custom CSS.
+- **SVG icons** were exported from Figma for scalability and directly embedded or linked in the HTML.
+- Product images and assets were downloaded and organized within the `/images` folder for efficient project management.
+- The **Inter Tight** font family was imported via a `<link>` tag from [Google Fonts](https://fonts.googleapis.com) to match the typography used in the design.
 
-### HTML
-
-To write the structural building block of the page.
-**SECTION**
-
-- IT is use to divide the design into three segment for easier structure.
+---
